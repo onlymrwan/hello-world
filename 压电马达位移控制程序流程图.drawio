@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-11T07:48:43.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="gEPdfDzYgqTN2PT3PWjG" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T06:41:25.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="eqaCMUHmRaGBGvKFcLgw" version="17.1.5" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2736" dy="2514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3145" dy="3143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,6 +26,15 @@
         </mxCell>
         <mxCell id="7BBMDYZycmkGAkKfoM8b-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="7BBMDYZycmkGAkKfoM8b-9" target="7BBMDYZycmkGAkKfoM8b-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7BBMDYZycmkGAkKfoM8b-105" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="7BBMDYZycmkGAkKfoM8b-9" target="7BBMDYZycmkGAkKfoM8b-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="185" />
+              <mxPoint x="163" y="110" />
+              <mxPoint x="-60" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7BBMDYZycmkGAkKfoM8b-9" value="初始化：&lt;br&gt;串口配置、文件路径配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="385" y="155" width="310" height="60" as="geometry" />
@@ -118,6 +127,9 @@
               <mxPoint x="540" y="1055" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7BBMDYZycmkGAkKfoM8b-106" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="7BBMDYZycmkGAkKfoM8b-31" target="7BBMDYZycmkGAkKfoM8b-100">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7BBMDYZycmkGAkKfoM8b-31" value="随机数生成测量数据" style="whiteSpace=wrap;html=1;fontSize=20;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="560" width="120" height="60" as="geometry" />
