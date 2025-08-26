@@ -1,9 +1,87 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="Kd_N4M90eKUCI-s-Nv34">
-    <mxGraphModel>
+    <mxGraphModel dx="1782" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-28" target="S8SSX4Sj8_gAmMkmtofV-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-28" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;施加正弦激励 ，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;获取V_unbalance&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="200" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-29" target="S8SSX4Sj8_gAmMkmtofV-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-29" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;ADC采样获得，&lt;/span&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数字序列 z_k&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="280" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-31" target="S8SSX4Sj8_gAmMkmtofV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-31" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;KF-LIA处理&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;状态方程: x_k=F·x_[&lt;/span&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;k-1&lt;/span&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;]+w_k&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp;观测方程: z_k=H_k·x_k+v_k&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;实时输出 I_k, Q_k&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="360" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-33" target="S8SSX4Sj8_gAmMkmtofV-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-33" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;输入VOD-TSE模型&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-37" target="S8SSX4Sj8_gAmMkmtofV-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-37" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;矢量正交分解，V_meas = P_C·v_C + P_G·v_G&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="600" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-39" target="S8SSX4Sj8_gAmMkmtofV-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-39" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;泰勒级数展开补偿非线性&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;ΔC = a₁P_C + a₂P_C² + ...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;ΔG = b₁P_G + b₂P_G² + ...&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="680" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-43" target="S8SSX4Sj8_gAmMkmtofV-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-43" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;输出C/D值&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="800" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-45" target="S8SSX4Sj8_gAmMkmtofV-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-60" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=15;" vertex="1" connectable="0" parent="S8SSX4Sj8_gAmMkmtofV-53">
+          <mxGeometry x="-0.0008" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-45" target="S8SSX4Sj8_gAmMkmtofV-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="1000" />
+              <mxPoint x="1010" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-61" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=15;" vertex="1" connectable="0" parent="S8SSX4Sj8_gAmMkmtofV-59">
+          <mxGeometry x="-0.4238" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-45" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;自校准触发条件？&lt;/font&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="880" y="880" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-52" target="S8SSX4Sj8_gAmMkmtofV-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-52" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;自校准流程&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;接入标准电容&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;测量I/Q_std&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;LM算法更新系数&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1040" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-56" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;返回主流程&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-58" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;结束&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1200" width="220" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
