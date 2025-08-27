@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="Kd_N4M90eKUCI-s-Nv34">
-    <mxGraphModel dx="2546" dy="1320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2096" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,8 +58,13 @@
         <mxCell id="S8SSX4Sj8_gAmMkmtofV-39" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;泰勒级数展开补偿非线性&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;ΔC = a₁P_C + a₂P_C² + ...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;ΔG = b₁P_G + b₂P_G² + ...&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;输出C/D值&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="400" y="520" width="600" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="S8SSX4Sj8_gAmMkmtofV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-45" target="S8SSX4Sj8_gAmMkmtofV-52">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="S8SSX4Sj8_gAmMkmtofV-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S8SSX4Sj8_gAmMkmtofV-45" target="S8SSX4Sj8_gAmMkmtofV-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="800" />
+              <mxPoint x="890" y="800" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="S8SSX4Sj8_gAmMkmtofV-60" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=15;" vertex="1" connectable="0" parent="S8SSX4Sj8_gAmMkmtofV-53">
           <mxGeometry x="-0.0008" y="3" relative="1" as="geometry">
