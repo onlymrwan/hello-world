@@ -117,6 +117,9 @@
         <mxCell id="gRE93O7xviKR9VaK8GBR-47" value="（MCU/PC）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontFamily=Times New Roman;fontSize=16;" vertex="1" parent="gRE93O7xviKR9VaK8GBR-46">
           <mxGeometry x="45" y="40" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="gRE93O7xviKR9VaK8GBR-88" value="中文问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="885" y="178" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
